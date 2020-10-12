@@ -6,6 +6,7 @@
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
   type = cat-file -t
   dump = cat-file -p
+  commit = commit --signoff
 
 [user]
 	name = Ziyi Yan
@@ -13,3 +14,11 @@
 [core]
 	autocrlf = input
 	safecrlf = true
+[commit]
+    template = ~/.gitmessage
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
