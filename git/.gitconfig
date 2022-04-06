@@ -10,7 +10,7 @@
 
 [user]
 	name = Ziyi Yan
-	email = ziyi.yan@foxmail.com
+	email = ziyi_yan@sfu.ca
 [core]
 	autocrlf = input
 	safecrlf = true
