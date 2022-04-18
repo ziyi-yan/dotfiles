@@ -157,6 +157,7 @@ font:
 
   # Point size
   size: 11.5
+  size: 14 # for fullscreen
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -192,7 +193,7 @@ font:
 colors:
   # Default colors
   primary:
-  #  background: '#1d1f21'
+    #background: '#1d1f21'
     foreground: '#eeeeee'
 
     # Bright and dim foreground colors
@@ -210,9 +211,9 @@ colors:
   #
   # Allowed values are CellForeground/CellBackground, which reference the
   # affected cell, or hexadecimal colors like #ff00ff.
-  #cursor:
-  #  text: CellBackground
-  #  cursor: CellForeground
+  cursor:
+    text: CellForeground
+    cursor: '#7f7f7f'
 
   # Vi mode cursor colors
   #
