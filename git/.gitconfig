@@ -10,10 +10,11 @@
 
 [user]
 	name = Ziyi Yan
-	email = ziyi_yan@sfu.ca
+	email = ziyi.yan@foxmail.com
 [core]
 	autocrlf = input
 	safecrlf = true
+    excludesfile = ~/.gitignore
 [commit]
     template = ~/.gitmessage
 
