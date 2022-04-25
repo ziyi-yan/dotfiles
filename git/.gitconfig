@@ -1,25 +1,25 @@
 [alias]
-  co = checkout
-  ci = commit
-  st = status
-  br = branch
-  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  type = cat-file -t
-  dump = cat-file -p
-  commit = commit --signoff
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+    commit = commit --signoff
 
 [user]
-	name = Ziyi Yan
-	email = ziyi.yan@foxmail.com
+    name = Ziyi Yan
+    email = ziyi.yan@foxmail.com
 [core]
-	autocrlf = input
-	safecrlf = true
+    autocrlf = input
+    safecrlf = true
     excludesfile = ~/.gitignore_global
 [commit]
     template = ~/.gitmessage
 
 [filter "lfs"]
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
