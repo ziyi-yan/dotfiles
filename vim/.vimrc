@@ -3,7 +3,6 @@ call plug#begin()
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-fugitive'
-    Plug 'tomasiser/vim-code-dark'
 call plug#end()
 set complete-=i " disable scanning included files when C-n pressed
 
@@ -26,6 +25,7 @@ command Vimrc tabe $MYVIMRC
 command ReloadVimrc source $MYVIMRC
 
 " colorscheme
-colorscheme vscode-dark-plus " converted from https://github.com/vidann1/visual-studio-dark-plus textmate theme via https://github.com/sickill/coloration
+"" vscode-dark-plus.vim is converted from https://github.com/vidann1/visual-studio-dark-plus textmate theme via https://github.com/sickill/coloration with some modifications
+colorscheme vscode-dark-plus
 " same color for end of buffer
 hi EndOfBuffer guibg=black
