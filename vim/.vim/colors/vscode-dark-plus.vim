@@ -41,14 +41,14 @@ hi DiffText ctermfg=253 ctermbg=24 cterm=bold guifg=#dcdcdc guibg=#204a87 gui=bo
 hi ErrorMsg ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dcdcaa guibg=NONE gui=NONE
 hi WarningMsg ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dcdcaa guibg=NONE gui=NONE
 hi Float ctermfg=151 ctermbg=NONE cterm=NONE guifg=#b5cea8 guibg=NONE gui=NONE
-hi Function ctermfg=187 ctermbg=NONE cterm=NONE guifg=#dcdcaa guibg=NONE gui=NONE
+hi Function ctermfg=74 ctermbg=NONE cterm=NONE guifg=#569cd6 guibg=NONE gui=NONE
 hi Identifier ctermfg=74 ctermbg=NONE cterm=NONE guifg=#569cd6 guibg=NONE gui=NONE
-hi Keyword ctermfg=175 ctermbg=NONE cterm=NONE guifg=#c586c0 guibg=NONE gui=NONE
+hi Keyword ctermfg=74 ctermbg=NONE cterm=NONE guifg=#569cd6 guibg=NONE gui=NONE
 hi Label ctermfg=180 ctermbg=NONE cterm=NONE guifg=#d69d85 guibg=NONE gui=NONE
 hi NonText ctermfg=240 ctermbg=235 cterm=NONE guifg=#565656 guibg=#282828 gui=NONE
 hi Number ctermfg=151 ctermbg=NONE cterm=NONE guifg=#b5cea8 guibg=NONE gui=NONE
 hi Operator ctermfg=175 ctermbg=NONE cterm=NONE guifg=#c586c0 guibg=NONE gui=NONE
-hi PreProc ctermfg=175 ctermbg=NONE cterm=NONE guifg=#c586c0 guibg=NONE gui=NONE
+hi PreProc ctermfg=74 ctermbg=NONE cterm=NONE guifg=#569cd6 guibg=NONE gui=NONE
 hi Special ctermfg=175 ctermbg=NONE cterm=NONE guifg=#c586c0 guibg=NONE gui=NONE
 hi SpecialKey ctermfg=240 ctermbg=236 cterm=NONE guifg=#565656 guibg=#313131 gui=NONE
 hi Statement ctermfg=175 ctermbg=NONE cterm=NONE guifg=#c586c0 guibg=NONE gui=NONE
