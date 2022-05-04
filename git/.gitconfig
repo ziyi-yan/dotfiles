@@ -15,8 +15,6 @@
     autocrlf = input
     safecrlf = true
     excludesfile = ~/.gitignore_global
-[commit]
-    template = ~/.gitmessage
 
 [filter "lfs"]
     required = true
