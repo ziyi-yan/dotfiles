@@ -3,6 +3,7 @@ call plug#begin()
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-fugitive'
+    Plug 'vim-scripts/a.vim'
 call plug#end()
 set complete-=i " disable scanning included files when C-n pressed
 
