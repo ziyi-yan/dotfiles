@@ -1,6 +1,8 @@
-PS1="%1~ %# "
-EDITOR="vim"
-PATH=$PATH:$HOME/go/bin:$HOME/bin
+bindkey -e
+
+export PS1="%1~ %# "
+export EDITOR="vim"
+export PATH=$PATH:$HOME/go/bin:$HOME/.local/bin
 
 # completion
 if type brew &>/dev/null; then
