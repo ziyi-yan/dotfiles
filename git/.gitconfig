@@ -10,11 +10,15 @@
 
 [user]
     name = Ziyi Yan
-    email = ziyi.yan@foxmail.com
+    email = ziyiyan@proton.me
+
 [core]
     autocrlf = input
     safecrlf = true
     excludesfile = ~/.gitignore_global
+
+[pull]
+    ff = only
 
 [filter "lfs"]
     required = true
